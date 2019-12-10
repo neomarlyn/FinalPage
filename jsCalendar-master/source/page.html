@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+Final Project
+12-10-19
+Jonathan Shepard
+Nicole Book
+-->
+
+<html>
+<head>
+<link rel="stylesheet" href="jsCalendar.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <img src="flowers.jpg" width="500" height="600" class="center">
+  <p><b><center> Time to plan your day! Breathe in, breathe out. </center></b></p>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<center><div class="auto-jsCalendar material-theme"></div></center>
+
+<div id="myDIV" class="header">
+  <h2 style="margin:5px">My To Do List</h2>
+  <input type="text" id="myInput" placeholder="Type here to add to your list...">
+  <span onclick="newElement()" class="addBtn">Add</span>
+</div>
+
+<ul id="myUL">
+  <li class="checked">Get Groceries</li>
+  <li>Check the Laundry</li>
+  <li>Walk the Dogs</li>
+  <li>Do Homework</li>
+  <li>Feed the Bunnies</li>
+</ul>
+
+<script src = "todo.js">
+</script>
+<script src="jsCalendar.js"></script>
+<script src="jsCalendar.lang.de.js"></script>
+
+</body>
+</html>
